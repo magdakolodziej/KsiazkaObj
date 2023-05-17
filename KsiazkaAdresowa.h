@@ -5,12 +5,14 @@
 #include <iostream>
 
 #include "UzytkownikMenedzer.h"
+#include "AdresatMenedzer.h"
 
 using namespace std;
 
 class KsiazkaAdresowa {
 
 UzytkownikMenedzer uzytkownikMenedzer;
+AdresatMenedzer adresatMenedzer;
 
 public:
 
@@ -23,6 +25,8 @@ uzytkownikMenedzer.wczytajUzytkownikowZPliku();
     void wypiszWszystkichUzytkownikow();
     void logowanieUzytkownika();
     void zmianaHaslaZalogowanegoUzytkownika();
+    void wylogowanieUzytkownika();
+    void dodawanieAdresata();
 
 
 };
