@@ -28,7 +28,7 @@ public:
     int pobierzIdUyztkownika();
     string pobierzImie();
     string pobierzNazwisko();
-    string pobierzNumerTelfonu();
+    string pobierzNumerTelefonu();
     string pobierzEmail();
     string pobierzAdres();
 };

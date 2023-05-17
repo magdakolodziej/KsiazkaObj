@@ -10,8 +10,7 @@ int main()
 
     ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
     ksiazkaAdresowa.logowanieUzytkownika();
-    ksiazkaAdresowa.zmianaHaslaZalogowanegoUzytkownika();
-    ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
     ksiazkaAdresowa.dodawanieAdresata();
+    ksiazkaAdresowa.wyswietlWszystkichAdresatow();
     return 0;
 }

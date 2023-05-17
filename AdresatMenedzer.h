@@ -21,11 +21,13 @@ vector <Adresat> adresaci;
 
 Adresat podajDaneNowegoAdresata(int idZalogowanegoUzytkownika);
 int pobierzIdNowegoAdresata();
+void wyswietlDaneAdresata(Adresat adresat);
 
 
 public:
 
 void dodawanieAdresata(int idZalogowanegoUzytkownika);
+void wyswietlWszystkichAdresatow();
 
 
 
