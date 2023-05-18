@@ -10,7 +10,7 @@
 
 #include "Adresat.h"
 #include "MetodyPomocnicze.h"
-//#include "PlikZAdresatami.h"
+#include "PlikZAdresatami.h"
 
 using namespace std;
 
@@ -22,6 +22,7 @@ vector <Adresat> adresaci;
 Adresat podajDaneNowegoAdresata(int idZalogowanegoUzytkownika);
 int pobierzIdNowegoAdresata();
 void wyswietlDaneAdresata(Adresat adresat);
+PlikZAdresatami plikZAdresatami;
 
 
 public:

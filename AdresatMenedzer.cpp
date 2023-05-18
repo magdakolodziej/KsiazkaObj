@@ -4,7 +4,7 @@ void AdresatMenedzer::dodawanieAdresata(int idZalogowanegoUzytkownika){
   Adresat adresat = podajDaneNowegoAdresata(idZalogowanegoUzytkownika);
 
     adresaci.push_back(adresat);
-    //plikZUzytkownikami.dopiszUzytkownikaDoPliku(uzytkownik);
+    plikZAdresatami.dopiszAdresataDoPliku(adresat);
 
     cout << endl << "Adresat dodany" << endl << endl;
     system("pause");
