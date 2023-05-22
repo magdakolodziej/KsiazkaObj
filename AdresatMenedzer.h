@@ -29,7 +29,7 @@ public:
 
 void dodawanieAdresata(int idZalogowanegoUzytkownika);
 void wyswietlWszystkichAdresatow();
-
+void wczytajAdresatowZalogowanegoUzytkownikaZPliku(int idZalogowanegoUzytkownika);
 
 
 };
