@@ -7,13 +7,13 @@
 
 using namespace std;
 
-class MetodyPomocnicze{
+class MetodyPomocnicze {
 
 public:
 
-static string konwerjsaIntNaString(int liczba);
-static string wczytajLinie();
-static int konwersjaStringNaInt(string liczba);
+    static string konwerjsaIntNaString(int liczba);
+    static string wczytajLinie();
+    static int konwersjaStringNaInt(string liczba);
 };
 
 #endif

@@ -12,19 +12,21 @@
 
 using namespace std;
 
-class PlikZAdresatami{
+class PlikZAdresatami {
 
-string nazwaPlikuZAdresatami;
-int idOstatniegoAdresata;
+    const string NAZWA_PLIKU_Z_ADRESATAMI;
+    int idOstatniegoAdresata;
 
-string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
-bool czyPlikJestPusty(fstream &plikTekstowy);
-Adresat pobierzDaneAdresata(string daneAdresataOddzielonePionowymiKreskami);
+    string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
+    bool czyPlikJestPusty(fstream &plikTekstowy);
+    Adresat pobierzDaneAdresata(string daneAdresataOddzielonePionowymiKreskami);
 
 
 public:
 
-    PlikZAdresatami();
+    PlikZAdresatami(string nazwaPlikuZAdresatami): NAZWA_PLIKU_Z_ADRESATAMI(nazwaPlikuZAdresatami) {
+        idOstatniegoAdresata = 0;
+    };
 
     int pobierzIdOstatniegoAdresata();
     void dopiszAdresataDoPliku(Adresat adresat);
