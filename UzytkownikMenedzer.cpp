@@ -122,8 +122,6 @@ bool UzytkownikMenedzer::czyUzytkownikJestZalogowany() {
     if (idZalogowanegoUzytkownika > 0)
         return true;
     else {
-        cout << "Brak zalogowanego uzytkownika";
-        system ("pause");
         return false;
     }
 }

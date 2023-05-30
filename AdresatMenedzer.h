@@ -16,11 +16,9 @@ using namespace std;
 
 class AdresatMenedzer {
 
+    PlikZAdresatami plikZAdresatami;
     const int ID_ZALOGOWANEGO_UZYTKOWNIKA;
     vector <Adresat> adresaci;
-
-    PlikZAdresatami plikZAdresatami;
-
 
     void wyswietlDaneAdresata(Adresat adresat);
     Adresat podajDaneNowegoAdresata();

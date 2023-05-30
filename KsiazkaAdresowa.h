@@ -6,6 +6,7 @@
 
 #include "UzytkownikMenedzer.h"
 #include "AdresatMenedzer.h"
+#include "MetodyPomocnicze.h"
 
 using namespace std;
 
@@ -34,6 +35,9 @@ public:
     void wylogowanieUzytkownika();
     void dodawanieAdresata();
     void wyswietlWszystkichAdresatow();
+    bool czyUzytkownikJestZalogowany();
+    char wybierzOpcjeZMenuGlownego();
+    char wybierzOpcjeZMenuUzytkownika();
 };
 
 #endif
