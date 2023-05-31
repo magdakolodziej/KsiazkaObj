@@ -125,3 +125,5 @@ bool UzytkownikMenedzer::czyUzytkownikJestZalogowany() {
         return false;
     }
 }
+
+
