@@ -107,3 +107,7 @@ void KsiazkaAdresowa::wyszukajAdresatowPoNazwisku(){
 
 adresatMenedzer -> wyszukajAdresatowPoNazwisku();
 }
+
+void KsiazkaAdresowa::edytujAdresata(){
+adresatMenedzer -> edytujAdresata();
+}

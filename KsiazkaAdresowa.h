@@ -40,6 +40,7 @@ public:
     char wybierzOpcjeZMenuUzytkownika();
     void wyszukajAdresatowPoImieniu();
     void wyszukajAdresatowPoNazwisku();
+    void edytujAdresata();
 };
 
 #endif
