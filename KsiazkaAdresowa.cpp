@@ -33,6 +33,7 @@ void KsiazkaAdresowa::wylogowanieUzytkownika() {
 }
 
 void KsiazkaAdresowa::dodawanieAdresata() {
+
     if (uzytkownikMenedzer.czyUzytkownikJestZalogowany()) {
         adresatMenedzer -> dodawanieAdresata();
     }
@@ -109,5 +110,10 @@ adresatMenedzer -> wyszukajAdresatowPoNazwisku();
 }
 
 void KsiazkaAdresowa::edytujAdresata(){
+
 adresatMenedzer -> edytujAdresata();
+}
+void KsiazkaAdresowa::usunAdresata(){
+
+adresatMenedzer -> usunAdresata();
 }
