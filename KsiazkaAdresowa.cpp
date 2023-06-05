@@ -55,12 +55,11 @@ void KsiazkaAdresowa::wyswietlWszystkichAdresatow() {
 }
 bool KsiazkaAdresowa::czyUzytkownikJestZalogowany() {
 
-   return uzytkownikMenedzer.czyUzytkownikJestZalogowany();
+    return uzytkownikMenedzer.czyUzytkownikJestZalogowany();
 
 }
 
-char KsiazkaAdresowa::wybierzOpcjeZMenuGlownego()
-{
+char KsiazkaAdresowa::wybierzOpcjeZMenuGlownego() {
     char wybor;
 
     system("cls");
@@ -76,8 +75,7 @@ char KsiazkaAdresowa::wybierzOpcjeZMenuGlownego()
     return wybor;
 }
 
-char KsiazkaAdresowa::wybierzOpcjeZMenuUzytkownika()
-{
+char KsiazkaAdresowa::wybierzOpcjeZMenuUzytkownika() {
     char wybor;
 
     system("cls");
@@ -99,21 +97,21 @@ char KsiazkaAdresowa::wybierzOpcjeZMenuUzytkownika()
     return wybor;
 }
 
-void KsiazkaAdresowa::wyszukajAdresatowPoImieniu(){
+void KsiazkaAdresowa::wyszukajAdresatowPoImieniu() {
 
-adresatMenedzer -> wyszukajAdresatowPoImieniu();
+    adresatMenedzer -> wyszukajAdresatowPoImieniu();
 }
 
-void KsiazkaAdresowa::wyszukajAdresatowPoNazwisku(){
+void KsiazkaAdresowa::wyszukajAdresatowPoNazwisku() {
 
-adresatMenedzer -> wyszukajAdresatowPoNazwisku();
+    adresatMenedzer -> wyszukajAdresatowPoNazwisku();
 }
 
-void KsiazkaAdresowa::edytujAdresata(){
+void KsiazkaAdresowa::edytujAdresata() {
 
-adresatMenedzer -> edytujAdresata();
+    adresatMenedzer -> edytujAdresata();
 }
-void KsiazkaAdresowa::usunAdresata(){
+void KsiazkaAdresowa::usunAdresata() {
 
-adresatMenedzer -> usunAdresata();
+    adresatMenedzer -> usunAdresata();
 }
